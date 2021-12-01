@@ -31,3 +31,11 @@ Exemplo:
 Exemplo de retorno
 
 `['blaze', 'solar-power']`
+
+## Sugestão para otimização
+
+### Persistir dados
+
+* Pode ser realizado a persistência dos dados em um banco de dados sqlite para realizar a consulta antes de fazer a
+requisição para a API
+* Utilizar uma biblicoteca para a consulta e também para o cache dos dados
