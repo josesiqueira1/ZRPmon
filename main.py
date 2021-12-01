@@ -1,5 +1,12 @@
-from handler import Handler
 from socketserver import TCPServer
 
-with TCPServer(("", 80), Handler) as httpd:
-    httpd.serve_forever()
+from handler import Handler
+
+
+def start_server():
+    with TCPServer(("", 80), Handler) as httpd:
+        httpd.serve_forever()
+
+
+if __name__ == "__main__":
+    start_server()
