@@ -1,6 +1,6 @@
 # ZRPmon
 
-Uma aplicação que consulta e retonrna as habilidades dos pokemons em ordem afabética
+Uma aplicação que consulta e retorna as habilidades em ordem afabética de um pokemon
 
 ## Dependências
 
@@ -19,6 +19,7 @@ Para executar a aplicação é necessário rodar o comando:
 ## Utilização
 
 ### URL
+
 Utilizar a seguinte sintaxe:
 
 `http://localhost/pokemon/{nome_do_pokemon}`
